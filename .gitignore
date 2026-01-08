@@ -1,0 +1,51 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+venv/
+env/
+.venv/
+.env/
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# IDE settings
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Temporary files
+*.tmp
+*.temp
+uploaded_image.jpg
+
+# Large model files (uncomment if you don't want to track them)
+# models/*.keras
+# models/*.pkl
+# models/*.h5
+
+# Dataset (download separately from Kaggle)
+data/
+dataset/
+flickr8k/
+Images/
+captions.txt
+
+# Logs and outputs
+logs/
+*.log
+tensorboard_logs/
+
+# Distribution / packaging
+dist/
+build/
+*.egg-info/
