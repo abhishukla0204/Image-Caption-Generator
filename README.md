@@ -53,7 +53,7 @@ The model is trained on the **Flickr8k** dataset from Kaggle:
 ## Project Structure
 
 ```
- Image-Caption-Generator
+Image-Caption-Generator
 ├──  image-captioning-cnns-lstms.ipynb  # Training notebook
 ├──  main.py                            # Streamlit inference app
 ├──  models/
