@@ -22,7 +22,6 @@ The model is trained on the **Flickr8k** dataset from Kaggle:
 
 ```
 ├── flickr8k-image-captioning-using-cnns-lstms.ipynb   # Training notebook
-├── flickr8k-image-captioning-using-cnns-lstms (1).ipynb
 ├── main.py                      # Streamlit inference app
 ├── models/
 │   ├── model.keras              # Trained caption model
