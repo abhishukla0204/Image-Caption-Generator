@@ -1,6 +1,6 @@
 <div align="center">
 
-# 🖼️ Image Caption Generator Using Deep Learning
+#  Image Caption Generator Using Deep Learning
 
 [![Python](https://img.shields.io/badge/Python-3.8+-3776AB?style=for-the-badge&logo=python&logoColor=white)](https://python.org)
 [![TensorFlow](https://img.shields.io/badge/TensorFlow-2.10+-FF6F00?style=for-the-badge&logo=tensorflow&logoColor=white)](https://tensorflow.org)
@@ -11,35 +11,23 @@
 
 *Upload any image → Get a natural language description automatically!*
 
-[Demo](#-demo) • [Installation](#-installation) • [Usage](#-usage) • [Model](#-model-architecture) • [Dataset](#-dataset)
+• [Installation](#-installation) • [Usage](#-usage) • [Model](#-model-architecture) • [Dataset](#-dataset)
 
 </div>
 
 ---
 
-## 🎯 Overview
+##  Overview
 
 This project combines **Computer Vision** and **Natural Language Processing** to automatically generate captions for images. The architecture uses:
 
 | Component | Description |
 |-----------|-------------|
-| 🔍 **CNN Encoder** | Extracts visual features using pretrained **DenseNet201** |
-| 📝 **LSTM Decoder** | Generates captions word-by-word from image features |
-| 🚀 **Streamlit App** | Interactive web interface for real-time inference |
+|  **CNN Encoder** | Extracts visual features using pretrained **DenseNet201** |
+|  **LSTM Decoder** | Generates captions word-by-word from image features |
+|  **Streamlit App** | Interactive web interface for real-time inference |
 
----
 
-## 🎬 Demo
-
-<div align="center">
-
-| Input Image | Generated Caption |
-|:-----------:|:-----------------|
-| <img src="img.png" width="250"/> | *"a dog is running through the grass"* |
-| <img src="img_1.png" width="250"/> | *"a man in a red shirt is standing"* |
-| <img src="img_2.png" width="250"/> | *"a group of people are sitting"* |
-
-</div>
 
 ---
 
@@ -55,26 +43,26 @@ The model is trained on the **Flickr8k** dataset from Kaggle:
 
 | Metric | Value |
 |--------|-------|
-| 📷 Total Images | 8,000 |
-| 💬 Captions per Image | 5 |
-| 📚 Total Samples | 40,000 |
-| 🎨 Content | People, animals, activities, objects |
+|  Total Images | 8,000 |
+|  Captions per Image | 5 |
+|  Total Samples | 40,000 |
+|  Content | People, animals, activities, objects |
 
 ---
 
-## 📁 Project Structure
+## Project Structure
 
 ```
-📦 Image-Caption-Generator
-├── 📓 image-captioning-cnns-lstms.ipynb  # Training notebook
-├── 🐍 main.py                            # Streamlit inference app
-├── 📂 models/
-│   ├── 🧠 model.keras                    # Trained caption model
-│   ├── 🔍 feature_extractor.keras        # CNN feature extractor
-│   └── 📖 tokenizer.pkl                  # Fitted tokenizer
-├── 🖼️ img.png, img_1.png, ...            # Demo images
-├── 📋 requirements.txt                   # Dependencies
-└── 📄 README.md
+ Image-Caption-Generator
+├──  image-captioning-cnns-lstms.ipynb  # Training notebook
+├──  main.py                            # Streamlit inference app
+├──  models/
+│   ├──  model.keras                    # Trained caption model
+│   ├──  feature_extractor.keras        # CNN feature extractor
+│   └──  tokenizer.pkl                  # Fitted tokenizer
+├──  img.png, img_1.png, ...            # Demo images
+├──  requirements.txt                   # Dependencies
+└──  README.md
 ```
 
 ---
@@ -119,7 +107,7 @@ streamlit run main.py
 
 Then open your browser to **http://localhost:8501**, upload an image, and get a caption!
 
-### 🏋️ Train Your Own Model
+###  Train Your Own Model
 
 1. Open `image-captioning-cnns-lstms.ipynb` in Jupyter/VS Code
 2. Ensure dataset paths point to your local Flickr8k location
@@ -128,7 +116,7 @@ Then open your browser to **http://localhost:8501**, upload an image, and get a 
 
 ---
 
-## 🧠 Model Architecture
+##  Model Architecture
 
 ```
 ┌─────────────┐     ┌──────────────────┐     ┌─────────────────┐
@@ -145,14 +133,14 @@ Then open your browser to **http://localhost:8501**, upload an image, and get a 
 
 ### How it works:
 
-1. **🔍 Feature Extraction**: DenseNet201 extracts a 1920-dimensional feature vector from the input image
-2. **📝 Text Preprocessing**: Captions are lowercased, cleaned, and wrapped with `startseq`/`endseq` tokens
-3. **🎯 Training**: Model learns to predict the next word given image features + previous words
-4. **🚀 Inference**: Starting with `startseq`, generates words until `endseq` or max length
+1. **Feature Extraction**: DenseNet201 extracts a 1920-dimensional feature vector from the input image
+2. **Text Preprocessing**: Captions are lowercased, cleaned, and wrapped with `startseq`/`endseq` tokens
+3. **Training**: Model learns to predict the next word given image features + previous words
+4. **Inference**: Starting with `startseq`, generates words until `endseq` or max length
 
 ---
 
-## 📦 Dependencies
+## Dependencies
 
 | Package | Version | Purpose |
 |---------|---------|---------|
@@ -165,7 +153,7 @@ Then open your browser to **http://localhost:8501**, upload an image, and get a 
 
 ---
 
-## 🙏 Acknowledgments
+## Acknowledgments
 
 - **Dataset**: [Flickr8k on Kaggle](https://www.kaggle.com/datasets/adityajn105/flickr8k) by Aditya Jain
 - **Inspiration**: ["Show and Tell: A Neural Image Caption Generator"](https://arxiv.org/abs/1411.4555) by Vinyals et al.
@@ -188,7 +176,5 @@ Then open your browser to **http://localhost:8501**, upload an image, and get a 
 <div align="center">
 
 ### ⭐ If you found this project helpful, please give it a star!
-
-Made with ❤️ and Deep Learning
 
 </div>
