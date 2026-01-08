@@ -166,6 +166,7 @@ Then open your browser to **http://localhost:8501**, upload an image, and get a 
 <div align="center">
 
 **Abhinav Shukla**
+
 Email: [shukla.abhinav0204@gmail.com](mailto:shukla.abhinav0204@gmail.com)
 
 </div>
