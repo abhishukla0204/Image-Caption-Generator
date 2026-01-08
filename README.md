@@ -31,7 +31,7 @@ This project combines **Computer Vision** and **Natural Language Processing** to
 
 ---
 
-## 📊 Dataset
+## Dataset
 
 The model is trained on the **Flickr8k** dataset from Kaggle:
 
@@ -67,7 +67,7 @@ The model is trained on the **Flickr8k** dataset from Kaggle:
 
 ---
 
-## 🚀 Installation
+## Installation
 
 ### 1️⃣ Clone the repository
 
@@ -97,9 +97,9 @@ pip install -r requirements.txt
 
 ---
 
-## 💻 Usage
+## Usage
 
-### 🎮 Run the Streamlit App
+### Run the Streamlit App
 
 ```bash
 streamlit run main.py
