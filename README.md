@@ -2,7 +2,6 @@
 
 An end-to-end image captioning system using CNN (for image feature extraction) and LSTM (for caption generation). Upload any image and the model generates a natural language description.
 
-![Demo](img.png)
 
 ## Overview
 
