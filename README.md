@@ -166,8 +166,7 @@ Then open your browser to **http://localhost:8501**, upload an image, and get a 
 <div align="center">
 
 **Abhinav Shukla**
-
-[![GitHub](https://img.shields.io/badge/GitHub-abhinavshukla0022-181717?style=for-the-badge&logo=github)](https://github.com/abhinavshukla0022)
+Email: [shukla.abhinav0204@gmail.com](mailto:shukla.abhinav0204@gmail.com)
 
 </div>
 
